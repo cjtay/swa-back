@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_media_photo_gallery_2s",
+  "info": {
+    "name": "photo_gallery_2",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "gallery_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

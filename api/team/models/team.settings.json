@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "name": "team",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    },
+    "contribution": {
+      "type": "richtext"
+    },
+    "aspiration": {
+      "type": "richtext"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.social"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "experience": {
+      "type": "richtext"
+    }
+  }
+}

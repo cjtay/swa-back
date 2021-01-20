@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_text_paragraph_with_photos",
+  "info": {
+    "name": "paragraphWithPhoto",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "paragraph_text": {
+      "type": "text"
+    },
+    "paragraph_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "photo_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_media_photo_galleries",
+  "info": {
+    "name": "photo_gallery",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "photo_gallery": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

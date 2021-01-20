@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_text_socials",
+  "info": {
+    "name": "social",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "socialurl": {
+      "type": "string"
+    },
+    "socialicon": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn"
+      ]
+    }
+  }
+}

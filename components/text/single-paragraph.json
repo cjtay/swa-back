@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_text_single_paragraphs",
+  "info": {
+    "name": "singleParagraph",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "singleParagraph": {
+      "type": "text",
+      "required": true
+    },
+    "wide": {
+      "type": "boolean",
+      "default": false
+    },
+    "boxed": {
+      "type": "boolean",
+      "default": false
+    },
+    "paragraph_title": {
+      "type": "string"
+    },
+    "two_columns": {
+      "type": "boolean"
+    }
+  }
+}
