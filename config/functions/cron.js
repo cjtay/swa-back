@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * Cron config that gives you an opportunity
@@ -18,4 +18,19 @@ module.exports = {
   // '0 1 * * 1': () => {
   //
   // }
+  //cron job to send every 10 secs
+  // "*/10 * * * * *": async () => {
+  //   console.log("cron job runs");
+  //   try {
+  //     const send = await strapi.plugins["email"].services.email.send({
+  //       to: "cjtay888@gmail.com",
+  //       subject: "Notification from SWA website",
+  //       text: "Email Title in plain text",
+  //       html: "<h1>Email Title in html</h1><p>This is a test</p>",
+  //     });
+  //     console.log("sent to sendgrid");
+  //   } catch (err) {
+  //     console.log("error: ", err[0].messages);
+  //   }
+  // },
 };
