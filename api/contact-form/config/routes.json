@@ -5,7 +5,7 @@
       "path": "/contact-forms",
       "handler": "contact-form.find",
       "config": {
-        "policies": []
+        "policies": ["global::domainPolicy"]
       }
     },
     {
@@ -13,7 +13,7 @@
       "path": "/contact-forms/count",
       "handler": "contact-form.count",
       "config": {
-        "policies": []
+        "policies": ["global::domainPolicy"]
       }
     },
     {
@@ -21,7 +21,7 @@
       "path": "/contact-forms/:id",
       "handler": "contact-form.findOne",
       "config": {
-        "policies": []
+        "policies": ["global::domainPolicy"]
       }
     },
     {
@@ -37,7 +37,7 @@
       "path": "/contact-forms/:id",
       "handler": "contact-form.update",
       "config": {
-        "policies": []
+        "policies": ["global::domainPolicy"]
       }
     },
     {
@@ -45,7 +45,7 @@
       "path": "/contact-forms/:id",
       "handler": "contact-form.delete",
       "config": {
-        "policies": []
+        "policies": ["global::domainPolicy"]
       }
     }
   ]
