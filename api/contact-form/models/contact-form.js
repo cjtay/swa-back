@@ -13,9 +13,14 @@ module.exports = {
       try {
         const send = await strapi.plugins["email"].services.email.send({
           to: "cjtay888@gmail.com",
-          subject: "Lifecycle Hook - Notification from SWA website",
+          subject: "SWA Website Contact Form Notification",
           text: `Name: ${result.name}, Email: ${result.email}, Message: ${result.message}`,
-          html: `<h1>Lifecycle Hook test</h1><p>Name: ${result.name}</p> <p>Email: ${result.email}</p> `,
+          html: `<h1>Enquiry received</h1>
+          <p>Name: ${result.name}</p> 
+          <p>Email: ${result.email}</p>
+          <p>Phone: ${result.phone}</p>
+          <p>Message: ${result.message}</p>
+          `,
         });
         console.log("sent to sendgrid");
       } catch (err) {

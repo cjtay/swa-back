@@ -4,7 +4,7 @@ module.exports = async (ctx, next) => {
   // console.log("ctx: ", ctx);
   // console.log("************************************");
   if (ctx.request.header.origin === "http://localhost:8000") {
-    console.log("successfully called next");
+    // console.log("successfully called next");
     return await next();
   } else {
     // console.log("response status: ", ctx.response.status);
