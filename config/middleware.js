@@ -11,7 +11,7 @@ module.exports = {
   },
   settings: {
     cors: {
-      origin: ["http://localhost:8000"],
+      origin: ["http://localhost:8000", "http://localhost:1337"],
       headers: ["Content-Type", "Authorization", "X-Frame-Options"],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     },

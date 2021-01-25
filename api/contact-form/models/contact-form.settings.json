@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "contact_forms",
   "info": {
-    "name": "contact form"
+    "name": "contact form",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,16 +12,19 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "phone": {
       "type": "string"
     },
     "message": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }
