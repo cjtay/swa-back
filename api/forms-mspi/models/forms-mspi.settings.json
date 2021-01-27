@@ -1,0 +1,103 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms_mspis",
+  "info": {
+    "name": "Forms - MSPI",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "nric": {
+      "type": "string",
+      "required": true
+    },
+    "mobile": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "maritalStatus": {
+      "type": "enumeration",
+      "enum": [
+        "single",
+        "married",
+        "divorced",
+        "widowed"
+      ],
+      "required": true
+    },
+    "education": {
+      "type": "enumeration",
+      "enum": [
+        "Master",
+        "Degree",
+        "Diploma",
+        "ALevel",
+        "OLevel",
+        "NLevel",
+        "NITEC",
+        "ITE",
+        "PreUniversity",
+        "Secondary",
+        "Primary",
+        "Certificate"
+      ],
+      "required": true
+    },
+    "occupation": {
+      "type": "string",
+      "required": true
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date",
+      "required": true
+    },
+    "placeofBirth": {
+      "type": "string",
+      "required": true
+    },
+    "height": {
+      "type": "decimal",
+      "required": true
+    },
+    "weight": {
+      "type": "decimal",
+      "required": true
+    },
+    "hobbies": {
+      "type": "text"
+    },
+    "availability": {
+      "type": "text",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

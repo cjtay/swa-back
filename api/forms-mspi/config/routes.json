@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/forms-mspis",
+      "handler": "forms-mspi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forms-mspis/count",
+      "handler": "forms-mspi.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/forms-mspis/:id",
+      "handler": "forms-mspi.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/forms-mspis",
+      "handler": "forms-mspi.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/forms-mspis/:id",
+      "handler": "forms-mspi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/forms-mspis/:id",
+      "handler": "forms-mspi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

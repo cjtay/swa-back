@@ -13,7 +13,7 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "email": {
       "type": "email",
@@ -37,18 +37,8 @@
       "required": false
     },
     "message": {
-      "type": "text"
-    },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
+      "type": "text",
+      "required": true
     }
   }
 }

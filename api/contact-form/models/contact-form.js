@@ -15,7 +15,7 @@ module.exports = {
           to: "cjtay888@gmail.com",
           subject: "SWA Website Contact Form Notification",
           text: `Name: ${result.name}, Email: ${result.email}, Message: ${result.message}`,
-          html: `<h1>Enquiry received</h1>
+          html: `
           <p>Name: ${result.name}</p> 
           <p>Company Name: ${result.company}</p> 
           <p>Email: ${result.email}</p>
