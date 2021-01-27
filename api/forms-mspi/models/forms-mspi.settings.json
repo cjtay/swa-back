@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "forms_mspis",
   "info": {
-    "name": "Forms - MSPI",
+    "name": "formmspi",
     "description": ""
   },
   "options": {

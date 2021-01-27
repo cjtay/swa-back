@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "contact_forms",
   "info": {
-    "name": "Forms - Contact",
+    "name": "formcontact",
     "description": ""
   },
   "options": {

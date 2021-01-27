@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "volunteer_forms",
   "info": {
-    "name": "Forms - Volunteer",
+    "name": "formvolunteer",
     "description": ""
   },
   "options": {

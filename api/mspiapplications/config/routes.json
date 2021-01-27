@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mspiapplications",
+      "handler": "mspiapplications.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mspiapplications/count",
+      "handler": "mspiapplications.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mspiapplications/:id",
+      "handler": "mspiapplications.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mspiapplications",
+      "handler": "mspiapplications.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mspiapplications/:id",
+      "handler": "mspiapplications.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mspiapplications/:id",
+      "handler": "mspiapplications.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
