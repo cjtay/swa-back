@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/volunteer-forms",
+      "handler": "volunteer-forms.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/volunteer-forms/count",
+      "handler": "volunteer-forms.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/volunteer-forms/:id",
+      "handler": "volunteer-forms.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/volunteer-forms",
+      "handler": "volunteer-forms.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/volunteer-forms/:id",
+      "handler": "volunteer-forms.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/volunteer-forms/:id",
+      "handler": "volunteer-forms.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

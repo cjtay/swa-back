@@ -17,8 +17,10 @@ module.exports = {
           text: `Name: ${result.name}, Email: ${result.email}, Message: ${result.message}`,
           html: `<h1>Enquiry received</h1>
           <p>Name: ${result.name}</p> 
+          <p>Company Name: ${result.company}</p> 
           <p>Email: ${result.email}</p>
           <p>Phone: ${result.phone}</p>
+          <p>Address: ${result.address}</p>
           <p>Message: ${result.message}</p>
           `,
         });

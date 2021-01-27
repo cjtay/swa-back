@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_forms",
+  "collectionName": "volunteer_forms",
   "info": {
-    "name": "Forms - Contact",
+    "name": "Forms - Volunteer",
     "description": ""
   },
   "options": {
@@ -20,16 +20,23 @@
       "required": true
     },
     "phone": {
-      "type": "string"
-    },
-    "message": {
-      "type": "text",
+      "type": "biginteger",
       "required": true
     },
-    "company": {
-      "type": "string"
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "dinner",
+        "svp",
+        "admin",
+        "ndp",
+        "photography",
+        "design",
+        "others"
+      ],
+      "required": true
     },
-    "address": {
+    "message": {
       "type": "text"
     }
   }
