@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "announcesections",
+  "info": {
+    "name": "announcesection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
