@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponsorforms",
+  "info": {
+    "name": "sponsorform"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

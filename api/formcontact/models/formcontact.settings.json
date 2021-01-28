@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "contact_forms",
+  "collectionName": "formcontacts",
   "info": {
-    "name": "formcontact",
-    "description": ""
+    "name": "formcontact"
   },
   "options": {
     "increments": true,
@@ -12,19 +11,16 @@
   },
   "attributes": {
     "name": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "email": {
-      "type": "email",
-      "required": true
+      "type": "email"
     },
     "phone": {
       "type": "string"
     },
     "message": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "company": {
       "type": "string"

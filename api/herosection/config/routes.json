@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/herosection",
+      "handler": "herosection.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/herosection",
+      "handler": "herosection.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/herosection",
+      "handler": "herosection.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

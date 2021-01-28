@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/mspiapplications",
-      "handler": "mspiapplications.find",
+      "path": "/formcontacts",
+      "handler": "formcontact.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/mspiapplications/count",
-      "handler": "mspiapplications.count",
+      "path": "/formcontacts/count",
+      "handler": "formcontact.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/mspiapplications/:id",
-      "handler": "mspiapplications.findOne",
+      "path": "/formcontacts/:id",
+      "handler": "formcontact.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/mspiapplications",
-      "handler": "mspiapplications.create",
+      "path": "/formcontacts",
+      "handler": "formcontact.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/mspiapplications/:id",
-      "handler": "mspiapplications.update",
+      "path": "/formcontacts/:id",
+      "handler": "formcontact.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/mspiapplications/:id",
-      "handler": "mspiapplications.delete",
+      "path": "/formcontacts/:id",
+      "handler": "formcontact.delete",
       "config": {
         "policies": []
       }
