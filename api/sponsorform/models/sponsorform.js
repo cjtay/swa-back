@@ -13,6 +13,7 @@ module.exports = {
       try {
         const send = await strapi.plugins["email"].services.email.send({
           to: "cjtay888@gmail.com",
+          replyTo: `${result.email}`,
           subject: "SWA Website Sponsorship Enquiry Notification",
           text: `Name: ${result.name}, Email: ${result.email}, Message: ${result.message}`,
           html: `

@@ -47,6 +47,10 @@
     },
     "experience": {
       "type": "richtext"
+    },
+    "tests": {
+      "via": "team",
+      "collection": "test"
     }
   }
 }

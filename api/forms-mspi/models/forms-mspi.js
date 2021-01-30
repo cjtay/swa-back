@@ -13,6 +13,7 @@ module.exports = {
       try {
         const send = await strapi.plugins["email"].services.email.send({
           to: "cjtay888@gmail.com",
+          replyTo: `${result.email}`,
           subject: "SWA Website MSPI Application Notification",
           text: `Name: ${result.name}, Email: ${result.email}`,
           html: `
@@ -30,6 +31,7 @@ module.exports = {
               <p>Weight: ${result.weight}</p>
               <p>Hobbies & Interests: ${result.hobbies}</p>
               <p>Availability: ${result.availability}</p>
+              <p>Photo: please login to SWA admin website to download photo </p>
 
               `,
         });
