@@ -3,7 +3,12 @@ module.exports = async (ctx, next) => {
   // console.log("domain: ", ctx.request.header.origin);
   // console.log("ctx: ", ctx);
   // console.log("************************************");
-  if (ctx.request.header.origin === "http://localhost:8000") {
+  if (
+    ctx.request.header.origin === "http://localhost:8000" ||
+    ctx.request.header.origin === "https://thawing-dusk-89197.herokuapp.com" ||
+    ctx.request.header.origin === "https://www.singaporewomenassociation.org" ||
+    ctx.request.header.origin === "*"
+  ) {
     // console.log("successfully called next");
     return await next();
   } else {
