@@ -23,7 +23,9 @@
       "type": "string"
     },
     "two_columns": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false,
+      "required": false
     }
   }
 }
